@@ -5,9 +5,11 @@
     --bg-color: hsl(0, 0%, 95%);
     --bg-dark-color: hsl(0, 0%, 90%);
     --bg-light-color: hsl(0, 0%, 100%);
+    --border-color: hsl(0, 0%, 70%);
     --text-color: hsl(0, 0%, 5%);
     --muted-text-color: hsl(0, 0%, 40%);
     --shadow: hsla(0, 0%, 0%, 0.15);
+    --shadow-fainter: hsla(0, 0%, 0%, 0.30);
 }
 
 body {
@@ -20,28 +22,50 @@ header {
     background-color: var(--bg-color);
     display: flex;
     flex-direction: column;
-    height: 150px;
+    height: 125px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 6px 5px var(--shadow);
 }
 
-ul {
-    list-style: none;
-    padding: none;
-    margin: none;
+header h1 {
+    color: var(--text-color);
+    font-family: 'Montserrat';
+    font-weight: 300;
+    margin: 15px 0px 10px 15px;
 }
 
-ul li {
+ul {
     display: flex;
     gap: 5px;
-    align-items: center;
-    border-radius: 5px;
-    padding: 10px;
-    font-family: 'Montserrat';
-    margin: 0;
-    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 5px;
 }
 
-ul li:hover {
+nav li {
+    display: flex;
+    gap: 2.5px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 15px 10px;
+    font-family: 'Montserrat';
+    margin: 0;
+    width: fit-content;
+    transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+nav li:hover {
+    box-shadow: 0px 3px 10px var(--shadow);
     background-color: var(--bg-light-color);
+    transform: translateY(-4px);
+}
+
+nav svg {
+    width: 25px;
+    height: 25px;
+}
+
+nav li {
+    font-size: 17.5px;
 }
