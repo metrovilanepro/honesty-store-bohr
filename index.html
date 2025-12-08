@@ -5,29 +5,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bohr's Honesty Store!</title>
+    <meta name="author" content="Brent Adrian M. Fogarty">
+    <title>Manong Gabe's Tindahan!</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 
-<header>
-    <h1>Bohr's Honesty Store!</h1>
-    <nav>
-        <ul>
-            <li><svg data-lucide="house"></svg>Home</li>
-            <li><svg data-lucide="house"></svg>Example1</li>
-            <li><svg data-lucide="house"></svg>Example2</li>
-            <li><svg data-lucide="house"></svg>Example3</li>
-        </ul>
-    </nav>
-</header>
-
 <body>
+    <header>
+        <h1>Manong Gabe's Tindahan!</h1>
+        <nav>
+            <ul>
+                <li data-page="home"><svg data-lucide="house"></svg>Home</li>
+                <li data-page="menu"><svg data-lucide="clipboard-list"></svg>Our Items</li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="home">
+
+    </section>
+
+    <section id="menu">
+        <nav>
+            <h1>Our Store Items</h1>
+            <ul>
+                <li><svg data-lucide="donut"></svg>Snacks</li>
+                <li><svg data-lucide="candy"></svg>Candy</li>
+                <li><svg data-lucide="cup-soda"></svg>Drinks</li>
+                <li><svg data-lucide="pencil"></svg>Stationery</li>
+                <li><svg data-lucide="scissors"></svg>Crafts</li>
+            </ul>
+        </nav>
+        <div id="snacks">
+
+        </div>
+
+        <div id="candy">
+
+        </div>
+
+        <div id="drinks">
+
+        </div>
+
+        <div id="stationery">
+
+        </div>
+
+        <div id="crafts">
+
+        </div>
+    </section>
 </body>
 
-<script src="https://unpkg.com/lucide@latest"></script>
 <script>
     lucide.createIcons();
 </script>
+
+<script src="js/script.js"></script>
 
 </html>

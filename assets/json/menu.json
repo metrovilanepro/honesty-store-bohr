@@ -1,0 +1,157 @@
+{
+  "snacks": [
+    {
+      "id": 1,
+      "name": "Breadpan",
+      "image": "images/snacks/breadpan.png",
+      "price": 20,
+      "stock": 10
+    },
+    {
+      "id": 2,
+      "name": "Patata",
+      "image": "images/snacks/patata.png",
+      "price": 20,
+      "stock": 10
+    },
+    {
+      "id": 3,
+      "name": "Brownies",
+      "image": "images/snacks/brownies.png",
+      "price": 25,
+      "stock": 8
+    },
+    {
+      "id": 4,
+      "name": "Cheezy",
+      "image": "images/snacks/cheezy.png",
+      "price": 15,
+      "stock": 20
+    },
+    {
+      "id": 5,
+      "name": "Mang Juan",
+      "image": "images/snacks/mang_juan.png",
+      "price": 20,
+      "stock": 15
+    },
+    {
+      "id": 6,
+      "name": "Stick-O",
+      "image": "images/snacks/stick_o.png",
+      "price": 12,
+      "stock": 25
+    }
+  ],
+
+  "candy": [
+    {
+      "id": 7,
+      "name": "Jelly Ace",
+      "image": "images/candy/jelly_ace.png",
+      "price": 10,
+      "stock": 30
+    },
+    {
+      "id": 8,
+      "name": "Maxx",
+      "image": "images/candy/maxx.png",
+      "price": 5,
+      "stock": 50
+    },
+    {
+      "id": 9,
+      "name": "Potchi",
+      "image": "images/candy/potchi.png",
+      "price": 5,
+      "stock": 50
+    },
+    {
+      "id": 10,
+      "name": "Cream-O",
+      "image": "images/candy/cream_o.png",
+      "price": 10,
+      "stock": 20
+    },
+    {
+      "id": 11,
+      "name": "Sour Belts",
+      "image": "images/candy/sour_belts.png",
+      "price": 10,
+      "stock": 25
+    },
+    {
+      "id": 12,
+      "name": "Flat Tops",
+      "image": "images/candy/flattops.png",
+      "price": 5,
+      "stock": 40
+    }
+  ],
+
+  "drinks": [
+    {
+      "id": 13,
+      "name": "C2",
+      "image": "images/drinks/c2.png",
+      "price": 25,
+      "stock": 12
+    },
+    {
+      "id": 14,
+      "name": "Zesto",
+      "image": "images/drinks/zesto.png",
+      "price": 10,
+      "stock": 20
+    },
+    {
+      "id": 15,
+      "name": "Yakult",
+      "image": "images/drinks/yakult.png",
+      "price": 12,
+      "stock": 16
+    },
+    {
+      "id": 16,
+      "name": "Milo",
+      "image": "images/drinks/milo.png",
+      "price": 15,
+      "stock": 10
+    }
+  ],
+
+  "stationery": [
+    {
+      "id": 17,
+      "name": "Sticky Notes",
+      "image": "images/stationery/sticky_notes.png",
+      "price": 15,
+      "stock": 30
+    },
+    {
+      "id": 18,
+      "name": "One-Fourth Paper",
+      "image": "images/stationery/one_fourth_paper.png",
+      "price": 2,
+      "stock": 200
+    },
+    {
+      "id": 19,
+      "name": "Bond Paper",
+      "image": "images/stationery/bond_paper.png",
+      "price": 2,
+      "stock": 200
+    }
+  ],
+
+  "accessories": [
+    {
+      "id": 20,
+      "name": "Bracelet",
+      "image": "images/accessories/bracelet.png",
+      "price": 20,
+      "stock": 10
+    }
+  ]
+}
+
