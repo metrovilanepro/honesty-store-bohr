@@ -1,0 +1,27 @@
+const snacks = document.querySelector("#snacks");
+const candy = document.querySelector("#candy");
+const drinks = document.querySelector("#drinks");
+const stationery = document.querySelector("#stationery");
+const crafts = document.querySelector("#crafts");
+
+async function loadJsonFromServer(filePath) {
+  try {
+    const response = await fetch(filePath);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const jsonData = await response.json();
+    console.log(jsonData);
+    return jsonData;
+  } catch (error) {
+    console.error("Error loading JSON:", error);
+    return null;
+  }
+}
+
+loadJsonFromServer('../assets/json/items.json');
+
+
+
+fetch("../assets/json/items.json")
+    .then(response => response.json())
