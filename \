@@ -106,6 +106,7 @@ section.active {
 #home {
     margin-top: 152.5px;
     margin-left: 20px;
+    display: flex;
     display: none;
 }
 
@@ -288,76 +289,17 @@ section.active {
 
 .item h2 {
     font-family: 'Sour Gummy';
-    font-size: clamp(15px, 2vw, 20px);
+    font-size: clamp(10px, 2vw, 20px);
     font-weight: 450;
     margin: 0px 0px 0px 5px;
 }
 
 #catnav2button {
-    width: 12.5vw;
-    height: 12.5vw;
     position: fixed;
     right: 0;
-    top: 142.5px;
-    margin-right: 10px;
-    background-color: var(--bg-color);
-    border: 2px solid var(--text-color);
-    border-radius: 5px;
-    box-shadow: 0px 5px 5px 3px var(--shadow);
-    transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+    top: 222.5px;
 }
 
-#catnav2button:hover {
-    background-color: var(--yellow-light);
-    box-shadow: 0px 6px 6px 5px var(--shadow);
-    transform: scale(105%);
-}
-
-#catnav2button svg {
-    width: 8vw;
-    height: 8vw;
-    stroke-width: 2;
-}
-
-#catnav2 {
-    display: flex;
-    justify-content: center;
-}
-
-#catnav2 ul {
-    list-style: none;
-}
-
-#catnav2 li {}
-
-#catnav2 ul svg {
-    width: 25px;
-    height: 25ps;
-    stroke-width: 2;
-}
-
-#catnav2 ul li {
-    border-radius: 25px;
-    padding: 2.5px 10px;
-    gap: 3px;
-    display: flex;
-    align-items: center;
-    height: 50px;
-    width: auto;
-    font-family: 'Sour Gummy';
-    font-size: 20px;
-    transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-#catnav2 ul li:hover {
-    background-color: var(--yellow-mid);
-    box-shadow: 0px 5px 6px var(--shadow);
-    transform: translateY(-4px);
-}
-
-#catnav2 ul li:active {
-    background-color: var(--yellow-lighter);
-}
 
 @media (max-width: 900px) {}
 

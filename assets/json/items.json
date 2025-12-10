@@ -4,50 +4,43 @@
       "id": 1,
       "name": "Breadpan",
       "image": "../assets/images/snacks/breadpan.png",
-      "price": "₱20",
-      "stock": 10
+      "price": "₱20"
     },
     {
       "id": 2,
       "name": "Patata",
       "image": "../assets/images/snacks/patata.png",
-      "price": "₱10",
-      "stock": 10
+      "price": "₱10"
     },
     {
       "id": 3,
       "name": "Brownies",
       "image": "../assets/images/snacks/brownies.png",
-      "price": "₱5",
-      "stock": 8
+      "price": "₱5"
     },
     {
       "id": 4,
       "name": "Cheezy",
       "image": "../assets/images/snacks/cheezy.png",
-      "price":"₱10",
-      "stock": 20
+      "price":"₱10"
     },
     {
       "id": 5,
       "name": "Mang Juan",
-      "image": "../assets/images/snacks/mang_juan.png",
-      "price": "₱10",
-      "stock": 15
+      "image": "../assets/images/snacks/mangjuan.png",
+      "price": "₱10"
     },
     {
       "id": 6,
       "name": "Stick-O",
-      "image": "../assets/images/snacks/stick_o.png",
-      "price": "₱2 for 1, ₱5 for 3",
-      "stock": 25
+      "image": "../assets/images/snacks/sticko.png",
+      "price": "₱2 for 1, ₱5 for 3"
     },
     {
       "id": 7,
       "name": "Cream-O",
-      "image": "../assets/images/candy/cream_o.png",
-      "price": "₱10",
-      "stock": 20
+      "image": "../assets/images/snacks/creamo.png",
+      "price": "₱10"
     }
   ],
 
@@ -55,37 +48,32 @@
     {
       "id": 8,
       "name": "Jelly Ace",
-      "image": "../assets/images/candy/jelly_ace.png",
-      "price": "₱5 for 3",
-      "stock": 30
+      "image": "../assets/images/candy/jellyace.png",
+      "price": "₱5 for 3"
     },
     {
       "id": 9,
       "name": "Maxx",
       "image": "../assets/images/candy/maxx.png",
-      "price": "₱5 for 3",
-      "stock": 50
+      "price": "₱5 for 3"
     },
     {
       "id": 10,
       "name": "Potchi",
       "image": "../assets/images/candy/potchi.png",
-      "price": "₱5 for 3",
-      "stock": 50
+      "price": "₱5 for 3"
     },
     {
       "id": 11,
-      "name": "Sour Belts",
-      "image": "../assets/images/candy/sour_belts.png",
-      "price": "₱15",
-      "stock": 25
+      "name": "Sour Bites",
+      "image": "../assets/images/candy/sourbites.png",
+      "price": "₱15"
     },
     {
       "id": 12,
       "name": "Flat Tops",
       "image": "../assets/images/candy/flattops.png",
-      "price": "₱5 for 3",
-      "stock": 40
+      "price": "₱5 for 3"
     }
   ],
 
@@ -94,29 +82,25 @@
       "id": 13,
       "name": "C2",
       "image": "../assets/images/drinks/c2.png",
-      "price": "₱20",
-      "stock": 12
+      "price": "₱20"
     },
     {
       "id": 14,
       "name": "Zesto",
       "image": "../assets/images/drinks/zesto.png",
-      "price": "₱15",
-      "stock": 20
+      "price": "₱15"
     },
     {
       "id": 15,
       "name": "Yakult",
       "image": "../assets/images/drinks/yakult.png",
-      "price": "₱15",
-      "stock": 16
+      "price": "₱15"
     },
     {
       "id": 16,
       "name": "Milo",
       "image": "../assets/images/drinks/milo.png",
-      "price": "₱10",
-      "stock": 10
+      "price": "₱10"
     }
   ],
 
@@ -124,44 +108,32 @@
     {
       "id": 17,
       "name": "Sticky Notes",
-      "image": "../assets/images/stationery/sticky_notes.png",
-      "price": "₱5 for 3",
-      "stock": 30
+      "image": "../assets/images/stationery/stickynotes.png",
+      "price": "₱5 for 3"
     },
     {
       "id": 18,
       "name": "One-Fourth Paper",
-      "image": "../assets/images/stationery/one_fourth_paper.png",
-      "price": "₱25",
-      "stock": 200
+      "image": "../assets/images/stationery/onefourth.png",
+      "price": "₱25"
     },
     {
       "id": 19,
       "name": "Bond Paper",
-      "image": "../assets/images/stationery/bond_paper.png",
-      "price": "₱2",
-      "stock": 200
+      "image": "../assets/images/stationery/bondpaper.png",
+      "price": "₱2"
     },
     {
       "id": 21,
       "name": "Ballpen",
-      "image": "../assets/images/stationery/ballpen.png",
-      "price": "₱15",
-      "stock": 40
+      "image": "../assets/images/stationery/pens.png",
+      "price": "₱15"
     },
     {
       "id": 22,
       "name": "Correction Tape",
-      "image": "../assets/images/stationery/correction_tape.png",
-      "price": "₱15",
-      "stock": 25
-    },
-    {
-      "id": 23,
-      "name": "Face Mask",
-      "image": "../assets/images/stationery/mask.png",
-      "price": "₱5",
-      "stock": 50
+      "image": "../assets/images/stationery/correctiontape.png",
+      "price": "₱15"
     }
   ],
 
@@ -169,16 +141,26 @@
     {
       "id": 20,
       "name": "Bracelet",
-      "image": "../assets/images/accessories/bracelet.png",
-      "price": "₱20",
-      "stock": 10
+      "image": "../assets/images/crafts/bracelet.png",
+      "price": "₱20"
     },
     {
       "id": 24,
       "name": "Paper Flowers",
-      "image": "../assets/images/crafts/paper_flowers.png",
-      "price": "₱8 for 1, ₱20 for 3",
-      "stock": 40
+      "image": "../assets/images/crafts/paperflowers.png",
+      "price": "₱8 for 1, ₱20 for 3"
+    },
+    {
+      "id": 25,
+      "name": "Stickers 1",
+      "image": "../assets/images/crafts/sticker1.png",
+      "price": "₱3 for 1"
+    },
+    {
+      "id": 26,
+      "name": "Stickers 2",
+      "image": "../assets/images/crafts/sticker2.png",
+      "price": "₱2 for 5" 
     }
   ]
 }

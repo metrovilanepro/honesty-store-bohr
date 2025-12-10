@@ -35,7 +35,6 @@ loadJsonFromServer('../assets/json/items.json').then(items => {
                     <h2>Price: ${item.price}</h2>
                 </div>
             `
-
             container.appendChild(div);
         });
     });
