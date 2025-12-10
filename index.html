@@ -64,28 +64,33 @@
 
         </div>
 
-        <button id="catnav2button">
-            <svg data-lucide="menu"></svg>
-        </button>
-
-        <div id="catnav2">
-            <ul>
-                <li data-category="snacks"><svg data-lucide="donut"></svg>Snacks</li>
-                <li data-category="candy"><svg data-lucide="candy"></svg>Candy</li>
-                <li data-category="drinks"><svg data-lucide="cup-soda"></svg>Drinks</li>
-                <li data-category="stationery"><svg data-lucide="pencil"></svg>Stationery</li>
-                <li data-category="crafts"><svg data-lucide="scissors"></svg>Crafts</li>
-            </ul>
-        </div>
     </section>
+
+    <button id="catnav2button">
+        <svg data-lucide="menu"></svg>
+    </button>
+
+    <div id="catnav2">
+        <div>
+            <button id="catnav2back"><svg data-lucide="chevron-right"></svg></button>
+            <h1>Our Store Items</h1>
+        </div>
+        <ul>
+            <li data-category="snacks"><svg data-lucide="donut"></svg>Snacks</li>
+            <li data-category="candy"><svg data-lucide="candy"></svg>Candy</li>
+            <li data-category="drinks"><svg data-lucide="cup-soda"></svg>Drinks</li>
+            <li data-category="stationery"><svg data-lucide="pencil"></svg>Stationery</li>
+            <li data-category="crafts"><svg data-lucide="scissors"></svg>Crafts</li>
+        </ul>
+    </div>
 </body>
 
 <script>
     lucide.createIcons();
 </script>
 
-<script src="js/script.js"></script>
-
 <script src="js/loadItems.js"></script>
+
+<script src="js/script.js"></script>
 
 </html>
