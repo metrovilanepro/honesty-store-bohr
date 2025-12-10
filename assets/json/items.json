@@ -41,6 +41,36 @@
       "name": "Cream-O",
       "image": "/honesty-store-bohr/assets/images/snacks/creamo.png",
       "price": "₱10"
+    },
+    {
+      "id": 6,
+      "name": "Clover",
+      "image": "/honesty-store-bohr/assets/images/snacks/clover.png",
+      "price": "₱2 for 1, ₱5 for 3"
+    },
+    {
+      "id": 6,
+      "name": "Clover Bits",
+      "image": "/honesty-store-bohr/assets/images/snacks/cloverbits.png",
+      "price": "₱2 for 1, ₱5 for 3"
+    },
+    {
+      "id": 6,
+      "name": "Pillows",
+      "image": "/honesty-store-bohr/assets/images/snacks/pillows.png",
+      "price": "₱2 for 1, ₱5 for 3"
+    },
+    {
+      "id": 6,
+      "name": "Tomi",
+      "image": "/honesty-store-bohr/assets/images/snacks/tomi.png",
+      "price": "₱2 for 1, ₱5 for 3"
+    },
+    {
+      "id": 6,
+      "name": "Roller Coaster",
+      "image": "/honesty-store-bohr/assets/images/snacks/rollercoaster.png",
+      "price": "₱2 for 1, ₱5 for 3"
     }
   ],
 

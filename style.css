@@ -108,10 +108,14 @@ section.active {
     animation: fadeInFromTop 1s ease forwards;
 }
 
+#home.active {
+    display: flex;
+    animation: fadeInFromTop 1s ease forwards;
+}
+
 #home {
     margin-top: 152.5px;
     margin-left: 20px;
-    display: flex;
 }
 
 #home img {
@@ -129,12 +133,16 @@ section.active {
 }
 
 #home div h1 {
-    font-size: 2.5vw;
+    font-size: clamp(25px, 3vw, 35px);
     font-family: 'Sour Gummy';
     width: 50vw;
 }
 
-#home div p {}
+#home div p {
+    font-size: clamp(20px, 2.5vw, 30px);
+    font-family: 'Sour Gummy';
+    width: 50vw;
+}
 
 #home img:hover {
     box-shadow: 0px 6px 6px 5px var(--shadow);
@@ -458,6 +466,28 @@ section.active {
     .item img {
         width: 44.5vw;
         height: 44.5vw;
+    }
+}
+
+@media (max-width: 650px) {
+    #home {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #home img {
+        width: 80vw;
+        height: auto;
+    }
+
+    #home div h1 {
+        font-size: clamp(20px, 2.5vw, 30px);
+        width: 90vw;
+    }
+
+    #home div p {
+        font-size: clamp(15px, 2vw, 25px);
+        width: 90vw;
     }
 }
 
