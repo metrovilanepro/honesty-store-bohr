@@ -15,7 +15,7 @@ async function loadJsonFromServer(filePath) {
     }
 }
 
-loadJsonFromServer('../assets/json/items.json').then(items => {
+loadJsonFromServer("/honesty-store-bohr/assets/json/items.json").then(items => {
     if (!items) return;
 
 

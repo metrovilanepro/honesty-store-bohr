@@ -111,7 +111,7 @@ section.active {
 #home {
     margin-top: 152.5px;
     margin-left: 20px;
-    display: none;
+    display: flex;
 }
 
 #home img {
