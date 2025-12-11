@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Breadpan",
       "image": "/honesty-store-bohr/assets/images/snacks/breadpan.png",
-      "price": "₱20"
+      "price": "₱10"
     },
     {
       "id": 2,
@@ -34,7 +34,7 @@
       "id": 6,
       "name": "Stick-O",
       "image": "/honesty-store-bohr/assets/images/snacks/sticko.png",
-      "price": "₱2 for 1, ₱5 for 3"
+      "price": "₱2 for 1, 5 for 3 "
     },
     {
       "id": 7,
@@ -46,36 +46,36 @@
       "id": 6,
       "name": "Clover",
       "image": "/honesty-store-bohr/assets/images/snacks/clover.png",
-      "price": "₱2 for 1, ₱5 for 3"
+      "price": "₱10"
     },
     {
       "id": 6,
       "name": "Clover Bits",
       "image": "/honesty-store-bohr/assets/images/snacks/cloverbits.png",
-      "price": "₱2 for 1, ₱5 for 3"
+      "price": "₱10"
     },
     {
       "id": 6,
       "name": "Pillows",
       "image": "/honesty-store-bohr/assets/images/snacks/pillows.png",
-      "price": "₱2 for 1, ₱5 for 3"
+      "price": "₱10"
     },
     {
       "id": 6,
       "name": "Tomi",
       "image": "/honesty-store-bohr/assets/images/snacks/tomi.png",
-      "price": "₱2 for 1, ₱5 for 3"
+      "price": "₱10"
     },
     {
       "id": 6,
       "name": "Roller Coaster",
       "image": "/honesty-store-bohr/assets/images/snacks/rollercoaster.png",
-      "price": "₱2 for 1, ₱5 for 3"
+      "price": "₱10"
     }
   ],
 
   "candy": [
-    {
+    {   
       "id": 8,
       "name": "Jelly Ace",
       "image": "/honesty-store-bohr/assets/images/candy/jellyace.png",
@@ -103,7 +103,7 @@
       "id": 12,
       "name": "Flat Tops",
       "image": "/honesty-store-bohr/assets/images/candy/flattops.png",
-      "price": "₱5 for 3"
+      "price": "₱5 for 2"
     }
   ],
 
@@ -148,12 +148,6 @@
       "price": "₱25"
     },
     {
-      "id": 19,
-      "name": "Bond Paper",
-      "image": "/honesty-store-bohr/assets/images/stationery/bondpaper.png",
-      "price": "₱2"
-    },
-    {
       "id": 21,
       "name": "Ballpen",
       "image": "/honesty-store-bohr/assets/images/stationery/pens.png",
@@ -184,13 +178,13 @@
       "id": 25,
       "name": "Stickers 1",
       "image": "/honesty-store-bohr/assets/images/crafts/sticker1.png",
-      "price": "₱3 for 1"
+      "price": "₱5 for 2"
     },
     {
       "id": 26,
       "name": "Stickers 2",
       "image": "/honesty-store-bohr/assets/images/crafts/sticker2.png",
-      "price": "₱2 for 5" 
+      "price": "₱3 for 1" 
     }
   ]
 }
